@@ -1,0 +1,81 @@
+/* Custom styles for the quiz app */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./images/quiz.avif');
+    font-weight: bolder;
+   
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-image: url('./images/quiz2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .card {
+    text-align: center;
+    padding: 0;
+    background-color: rgb(57, 46, 46);
+    width: 18rem;
+  display: inline-block;
+  }
+  .card-body{
+    /*background-color: bisque;*/
+    background-image: url('./images/quiz.avif');
+
+    border-radius: 1px;
+}
+  #quizBlock {
+    margin-top: 20px;
+    font-size: medium;
+  }
+  
+  #quizWrap {
+    list-style: none;
+    padding: 0;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+  .list-group-item {
+    padding: 10px;
+  }
+  
+  .btn {
+    margin-top: 20px;
+   border: 2px solid black;
+  }
+  #start {
+    text-align: center;
+  }
+  #score {
+    float:right;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .para1{
+    color:beige;
+    font-size: large;
+  }
+  
+  .correct-answer {
+    background-color: #3fdf64;
+  }
+  .wrong-answer{
+    background-color: red;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 576px) {
+    .container {
+      padding: 10px;
+    }
+    
+    .card {
+      width: auto;
+    }
+  }
+  
